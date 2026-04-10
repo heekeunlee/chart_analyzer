@@ -107,7 +107,7 @@ function App() {
         <aside>
           {error && (
             <div className="toss-card" style={{ marginBottom: '24px', borderLeft: '4px solid var(--danger)', background: '#fff' }}>
-              <div style={{ display: 'flex', gap: '8px', color: var(--danger) }}>
+              <div style={{ display: 'flex', gap: '8px', color: 'var(--danger)' }}>
                 <AlertCircle size={20} />
                 <span style={{ fontWeight: 600 }}>Error</span>
               </div>
