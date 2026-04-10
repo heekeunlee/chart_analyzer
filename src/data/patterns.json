@@ -1,0 +1,30 @@
+[
+  {
+    "id": "double_bottom",
+    "name": "쌍바닥 (Double Bottom)",
+    "type": "bullish_reversal",
+    "description": "하락 추세 끝에서 나타나는 강력한 상승 반전 신호입니다. 'W'자 모양이 특징입니다.",
+    "logic": "두 번째 저점이 첫 번째 저점보다 높거나 같을 때 매수 유효."
+  },
+  {
+    "id": "head_and_shoulders",
+    "name": "헤드 앤 숄더 (Head and Shoulders)",
+    "type": "bearish_reversal",
+    "description": "상승세의 끝을 알리는 강력한 매도 신호입니다.",
+    "logic": "어깨와 머리가 형성된 후 넥라인이 무너질 때 적극 매도."
+  },
+  {
+    "id": "bull_flag",
+    "name": "상승 깃발형 (Bull Flag)",
+    "type": "bullish_continuation",
+    "description": "급등 후 잠시 쉬어가는 구간으로, 깃발 모양을 형성한 후 2차 급등이 예상됩니다.",
+    "logic": "박스 상단 돌파 시 추격 매수."
+  },
+  {
+    "id": "golden_cross",
+    "name": "골든 크로스 (Golden Cross)",
+    "type": "indicator",
+    "description": "단기 이평선이 장기 이평선을 골든크로스하며 추세가 우상향으로 전환됩니다.",
+    "logic": "5일선 혹은 20일선이 60일선을 뚫고 올라갈 때 매수."
+  }
+]
